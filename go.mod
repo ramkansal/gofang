@@ -1,6 +1,6 @@
 module github.com/ramkansal/web-crawler
 
-go 1.24.2
+go 1.24.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.11.0
