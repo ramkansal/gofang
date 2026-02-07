@@ -1,12 +1,9 @@
 <p align="center">
-<pre>
-   ██████╗  ██████╗ ███████╗ █████╗ ███╗   ██╗ ██████╗
-  ██╔════╝ ██╔═══██╗██╔════╝██╔══██╗████╗  ██║██╔════╝
-  ██║  ███╗██║   ██║█████╗  ███████║██╔██╗ ██║██║  ███╗
-  ██║   ██║██║   ██║██╔══╝  ██╔══██║██║╚██╗██║██║   ██║
-  ╚██████╔╝╚██████╔╝██║     ██║  ██║██║ ╚████║╚██████╔╝
-   ╚═════╝  ╚═════╝ ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝
-</pre>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img alt="GoFang" src="assets/banner-dark.svg" width="600">
+  </picture>
 </p>
 
 <h4 align="center">All-in-one web crawler with extraction superpowers</h4>
@@ -46,9 +43,17 @@
 
 ## Installation
 
-### From Source
+### Using `go install`
 
 Requires **Go 1.22+**
+
+```bash
+go install github.com/ramkansal/web-crawler/cmd/gofang@latest
+```
+
+This will download, compile, and place `gofang` in your `$GOPATH/bin` (or `$HOME/go/bin` by default). Make sure that directory is in your `PATH`.
+
+### From Source
 
 ```bash
 git clone https://github.com/ramkansal/web-crawler.git
@@ -58,15 +63,35 @@ go build ./cmd/gofang/
 
 The binary `gofang` (or `gofang.exe` on Windows) will be created in the current directory.
 
-### Move to PATH (optional)
+### Cross-Platform Builds
+
+Use the included Makefile to build for all supported platforms:
 
 ```bash
-# Linux / macOS
-sudo mv gofang /usr/local/bin/
+# Build for current OS
+make build
 
-# Windows (PowerShell as admin)
-Move-Item gofang.exe C:\Windows\System32\
+# Build for all platforms (Linux, Windows, macOS, FreeBSD)
+make all
+
+# Build for a specific OS
+make build-linux
+make build-windows
+make build-darwin
+make build-freebsd
 ```
+
+Binaries are output to the `dist/` directory:
+
+| Platform       | Binary                           |
+|----------------|----------------------------------|
+| Linux (x64)    | `dist/gofang-linux-amd64`        |
+| Linux (ARM64)  | `dist/gofang-linux-arm64`        |
+| Windows (x64)  | `dist/gofang-windows-amd64.exe`  |
+| Windows (ARM64)| `dist/gofang-windows-arm64.exe`  |
+| macOS (Intel)  | `dist/gofang-darwin-amd64`       |
+| macOS (Apple Silicon) | `dist/gofang-darwin-arm64`  |
+| FreeBSD (x64)  | `dist/gofang-freebsd-amd64`      |
 
 ## Usage
 

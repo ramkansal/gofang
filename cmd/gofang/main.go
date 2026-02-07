@@ -3,9 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"os/signal"
 	"strings"
-	"syscall"
 	"time"
 
 	"github.com/ramkansal/web-crawler/internal/crawler"
@@ -67,6 +65,8 @@ type flags struct {
 }
 
 func main() {
+	enableANSI()
+
 	f := parseFlags()
 
 	if f.showVersion {
@@ -97,7 +97,7 @@ func main() {
 
 	// Handle Ctrl+C
 	sig := make(chan os.Signal, 1)
-	signal.Notify(sig, syscall.SIGINT, syscall.SIGTERM)
+	registerSignals(sig)
 	go func() {
 		<-sig
 		fmt.Fprintf(os.Stderr, "\n\n%s Interrupt received, stopping...\n", clr("yellow", "!"))

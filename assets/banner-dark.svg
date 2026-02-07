@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 160" fill="none">
+  <style>
+    .banner { font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', monospace; font-size: 16px; fill: #36BCF7; white-space: pre; }
+    .tagline { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; fill: #8b949e; }
+  </style>
+  <g transform="translate(60, 0)">
+    <text class="banner" x="0" y="20">
+      <tspan x="0" dy="0"> ██████╗  ██████╗ ███████╗ █████╗ ███╗   ██╗ ██████╗</tspan>
+      <tspan x="0" dy="20">██╔════╝ ██╔═══██╗██╔════╝██╔══██╗████╗  ██║██╔════╝</tspan>
+      <tspan x="0" dy="20">██║  ███╗██║   ██║█████╗  ███████║██╔██╗ ██║██║  ███╗</tspan>
+      <tspan x="0" dy="20">██║   ██║██║   ██║██╔══╝  ██╔══██║██║╚██╗██║██║   ██║</tspan>
+      <tspan x="0" dy="20">╚██████╔╝╚██████╔╝██║     ██║  ██║██║ ╚████║╚██████╔╝</tspan>
+      <tspan x="0" dy="20"> ╚═════╝  ╚═════╝ ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝</tspan>
+    </text>
+  </g>
+  <text class="tagline" x="50%" y="150" text-anchor="middle">All-in-one web crawler with extraction superpowers</text>
+</svg>
