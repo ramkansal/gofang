@@ -1,6 +1,6 @@
 BINARY   = gofang
 VERSION  = 1.0.0
-MODULE   = github.com/ramkansal/web-crawler
+MODULE   = github.com/ramkansal/gofang
 CMD      = ./cmd/gofang
 
 LDFLAGS  = -s -w -X main.version=$(VERSION)

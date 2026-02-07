@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ramkansal/web-crawler/internal/crawler"
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/internal/crawler"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 var version = "1.0.0"

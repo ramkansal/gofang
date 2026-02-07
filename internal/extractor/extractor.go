@@ -1,7 +1,7 @@
 package extractor
 
 import (
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // Registry holds all available extractors.

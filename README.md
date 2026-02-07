@@ -48,7 +48,7 @@
 Requires **Go 1.22+**
 
 ```bash
-go install github.com/ramkansal/web-crawler/cmd/gofang@latest
+go install github.com/ramkansal/gofang/cmd/gofang@latest
 ```
 
 This will download, compile, and place `gofang` in your `$GOPATH/bin` (or `$HOME/go/bin` by default). Make sure that directory is in your `PATH`.
@@ -56,8 +56,8 @@ This will download, compile, and place `gofang` in your `$GOPATH/bin` (or `$HOME
 ### From Source
 
 ```bash
-git clone https://github.com/ramkansal/web-crawler.git
-cd web-crawler
+git clone https://github.com/ramkansal/gofang.git
+cd gofang
 go build ./cmd/gofang/
 ```
 

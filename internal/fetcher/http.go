@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gocolly/colly/v2"
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // HTTPFetcher uses Colly for fast, efficient HTTP-only page fetching.

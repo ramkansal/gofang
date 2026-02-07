@@ -1,4 +1,4 @@
-module github.com/ramkansal/web-crawler
+module github.com/ramkansal/gofang
 
 go 1.24.0
 

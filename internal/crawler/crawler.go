@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ramkansal/web-crawler/internal/extractor"
-	"github.com/ramkansal/web-crawler/internal/fetcher"
-	"github.com/ramkansal/web-crawler/internal/output"
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/internal/extractor"
+	"github.com/ramkansal/gofang/internal/fetcher"
+	"github.com/ramkansal/gofang/internal/output"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // Crawler is the core engine that orchestrates fetching, extracting, and outputting.

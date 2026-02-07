@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // TextWriter writes crawl results to a plain text file,

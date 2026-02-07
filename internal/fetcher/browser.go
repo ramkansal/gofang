@@ -8,7 +8,7 @@ import (
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/launcher"
 	"github.com/go-rod/rod/lib/proto"
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // BrowserFetcher uses Rod (headless Chrome) for JS-rendered page fetching.

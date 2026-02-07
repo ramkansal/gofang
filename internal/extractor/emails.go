@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // EmailsExtractor extracts email addresses from page content and mailto: links.

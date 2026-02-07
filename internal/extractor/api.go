@@ -3,7 +3,7 @@ package extractor
 import (
 	"strings"
 
-	"github.com/ramkansal/web-crawler/pkg/plugin"
+	"github.com/ramkansal/gofang/pkg/plugin"
 )
 
 // APIExtractor extracts XHR/fetch API endpoints captured by the browser fetcher.
