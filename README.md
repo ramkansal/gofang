@@ -121,21 +121,10 @@ gofang -u https://example.com -H "Authorization: Bearer token123"
 gofang -u https://example.com -si
 ```
 
-## Screenshots
-
 ### Help Menu
 
-![GoFang Help](screenshots/help.png)
+<img width="854" height="623" alt="image" src="https://github.com/user-attachments/assets/4ce3d4ec-f89e-45f8-9389-ec4afc3a0c4b" />
 
-### Crawling in Action
-
-![GoFang Crawl](screenshots/crawl.png)
-
-### Output with Extracted Items
-
-![GoFang Output](screenshots/output.png)
-
-> **Note:** To add screenshots, place your images in the `screenshots/` directory.
 
 ## Flags
 
