@@ -213,9 +213,3 @@ This makes it straightforward to add new extractors, output formats, or fetcher 
 ## License
 
 MIT
-
----
-
-<p align="center">
-  Made with ☕ by <a href="https://github.com/ramkansal">ramkansal</a>
-</p>
