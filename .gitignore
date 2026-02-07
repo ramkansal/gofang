@@ -6,6 +6,7 @@
 *.dylib
 web-crawler.exe
 crawler.exe
+*.exe
 
 # Build output
 /bin/
